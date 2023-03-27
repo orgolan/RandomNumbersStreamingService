@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "RandomNumbersService";
+import "google/protobuf/empty.proto";
+
+package stream;
+
+service RandomNumbersStreaming {
+  rpc StartStreaming (google.protobuf.Empty) returns (stream StreamReply);
+}
+
+message StreamReply {
+  string randomNumber  = 1;
+}

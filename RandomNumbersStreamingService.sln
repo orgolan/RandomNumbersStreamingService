@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersStreamingService", "RandomNumbersStreamingService\RandomNumbersStreamingService.csproj", "{499D9BA8-AD3D-412B-8E4E-4F16380C282C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersStreamingService.Tests", "RandomNumbersStreamingService.Tests\RandomNumbersStreamingService.Tests.csproj", "{15601244-0197-4842-A64D-AEF8D8052B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersStreamingService.Client", "RandomNumbersStreamingService.Client\RandomNumbersStreamingService.Client.csproj", "{71278A6E-4C53-48AC-ADEF-6216B72BD151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{499D9BA8-AD3D-412B-8E4E-4F16380C282C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499D9BA8-AD3D-412B-8E4E-4F16380C282C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499D9BA8-AD3D-412B-8E4E-4F16380C282C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499D9BA8-AD3D-412B-8E4E-4F16380C282C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15601244-0197-4842-A64D-AEF8D8052B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15601244-0197-4842-A64D-AEF8D8052B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15601244-0197-4842-A64D-AEF8D8052B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15601244-0197-4842-A64D-AEF8D8052B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71278A6E-4C53-48AC-ADEF-6216B72BD151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71278A6E-4C53-48AC-ADEF-6216B72BD151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71278A6E-4C53-48AC-ADEF-6216B72BD151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71278A6E-4C53-48AC-ADEF-6216B72BD151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {511BA681-EA10-4F84-AE5E-8CED945A5E2B}
+	EndGlobalSection
+EndGlobal
